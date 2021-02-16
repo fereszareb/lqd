@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-45deg , #EE7752,#E73C7E, #23A6D5, #23D5AB );
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 5s ease-in-out infinite;
+    
+}
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+body{
+    display: grid;
+    align-items: center;
+    align-content: center;
+
+}
+
+#place{
+    margin: auto;
+    width: 55%;
+    display: contents;
+    display: flex;
+    margin-top: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+#picture{
+    height: auto;
+    width: 40%;
+    background-image: url(../image/bac.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+#login{
+    height: auto;
+    min-height: 500px;
+    width: 60%;
+  background-color: rgba(252, 251, 249, 0.507);
+    padding-top: 10px;
+}
+  
+  /* -----------debut form css---------------- */
+  
+  
+  .formul {
+      margin:10px auto;
+      max-width: 600px;
+      padding: 20px 12px 10px 20px;
+      font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  .formul li {
+      padding: 0;
+      display: block;
+      list-style: none;
+      margin: 10px 0 0 0;
+  }
+  .formul label{
+      margin:0 0 3px 0;
+      padding:0px;
+      display:block;
+    font-weight: bold;
+    color: black;
+  }
+  .formul input[type=text],  
+  .formul input[type=tel],  
+  .formul input[type=date],
+  .formul input[type=datetime],
+  .formul input[type=number],
+  .formul input[type=search],
+  .formul input[type=time],
+  .formul input[type=url],
+  .formul input[type=email],
+  .formul input[type=password],
+  .formul input[type=username],
+  textarea, 
+  select{
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      border:1px solid #BEBEBE;
+      padding: 7px;
+      margin:0px;
+      -webkit-transition: all 0.30s ease-in-out;
+      -moz-transition: all 0.30s ease-in-out;
+      -ms-transition: all 0.30s ease-in-out;
+      -o-transition: all 0.30s ease-in-out;
+      outline: none;	
+  }
+  .formul input[type=text]:focus,
+  .formul input[type=tel]:focus,   
+  .formul input[type=date]:focus,
+  .formul input[type=datetime]:focus,
+  .formul input[type=number]:focus,
+  .formul input[type=search]:focus,
+  .formul input[type=time]:focus,
+  .formul input[type=url]:focus,
+  .formul input[type=email]:focus,
+  .formul textarea:focus, 
+  .formul select:focus{
+      -moz-box-shadow: 0 0 8px #ffbd2f;
+      -webkit-box-shadow: 0 0 8px #ffbd2f;
+      box-shadow: 0 0 8px #ffbd2f;
+      border: 1px solid #ffbd2f;
+  }
+  .formul .field-divided{
+      width: 49.35%;
+  }
+  
+  .formul .field-long{
+      width: 100%;
+  }
+  .formul .field-select{
+      width: 100%;
+  }
+  .formul .field-textarea{
+      height: 100px;
+  }
+  .formul input[type=submit], .formul input[type=button]{
+      background: #27a465;
+      padding: 8px 15px 8px 15px;
+      border: none;
+    color:white; 
+  font-weight: bold;
+    width: 45%;
+  margin-left: 25.5%;
+  }
+  .formul input[type=submit]:hover, .formul input[type=button]:hover{
+      background: #2f9261;
+      box-shadow:none;
+      -moz-box-shadow:none;
+      -webkit-box-shadow:none;
+  }
+  .formul .required{
+      color:red;
+  }
+  
+  @media (max-width : 1059px){
+      #place{
+          width: 70%;
+      }  
+      .formul .field-divided{
+        width: 49.1%;
+    }
+
+  }
+  @media (max-width : 750px){
+        #place{
+            width: 80%;
+        }
+
+  }
+  @media (max-width : 580px){
+    #place{
+        width: 80%;
+    }
+    #picture{
+        display: none;
+    }
+    #login{
+        width: 100%;
+    }
+
+}

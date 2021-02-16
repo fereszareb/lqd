@@ -1,0 +1,151 @@
+
+
+
+.select{
+    float: right;
+    margin-top: 29px;
+    margin-right: 4px;
+}
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    margin: auto;
+    display: block;
+
+    padding: 10px 50px 10px 10px;
+    background: url(../image/select.png) no-repeat 95% ;
+    background-color: rgb(255, 255, 255);
+    color : rgb(41, 41, 41);
+    border-radius: 4px;
+    border: 2px solid rgb(83, 83, 83);
+    width: 150px;
+    cursor: pointer;
+    float: right;
+}
+
+
+
+
+
+#option{
+    width: 300px;
+    height: 92.6%;
+    background-color: #17191e;
+    margin-top: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    overflow-y: scroll;
+}
+#option h3{
+    color: white;
+    font-size: 26px;
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+#option h2{
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+#option2{
+    width: 300px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    overflow-y: scroll;
+    display: none;
+    padding-left: 12px;
+}
+#option2 h2{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#option3{
+    width: 300px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    overflow-y: scroll;
+    display: none;
+    padding-left: 12px;
+}
+#option3 h2{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+input[type="text"]{
+    width: 95%;
+    height: 30px;
+    margin-top: 2px;
+    padding-left: 10px;
+
+
+}
+#cancel{
+    height: 30px;
+    width: 30px;
+    float: right;
+    background-image: url(../image/cancel.jpg);
+    background-size: contain;
+    margin-top: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+input[type="submit"]{
+    height: 30px;
+    width: 98.7%;
+    background-color: turquoise;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#option2 h4{
+margin-top: 10px;
+}
+#option h3{
+margin-top: 10px;
+width: 100%;
+text-align: center;
+}
+#background-color-option{
+
+    display: flex;
+    height: 100px;
+    width: 100%;
+
+
+}
+
+h5{
+    margin: auto;
+    display: block ;
+    float: left;
+    margin-left: 15px;
+color: white;
+}
+#free-style{
+    height: 180px;
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    margin-bottom: 15px;
+}
+.style{
+    height: 99%;
+    margin-right: 2px;
+}
+.style img{
+height: 99%;
+width: auto;
+cursor: pointer;
+}
